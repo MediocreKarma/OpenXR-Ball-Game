@@ -11,7 +11,7 @@ public class ScoreManager : MonoBehaviour
    
     void UpdateScoreUI()
     {
-        scoreText.text = "Scor: " + score.ToString();
+        scoreText.text = "Score: " + score.ToString();
     }
 
     public void IncrementScore()
