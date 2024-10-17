@@ -36,7 +36,7 @@ public class BallLogic : MonoBehaviour
         hitManager.IncremenentHits();
         var direction = collision.transform.TransformDirection(Vector3.right);
         rb.velocity = Vector3.zero;
-        float force = .2f;
+        float force = .16f;
         rb.AddForce(direction * force, ForceMode.Impulse);
     }
 }
